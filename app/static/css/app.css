@@ -5,3 +5,23 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+.card {
+    border-top-color: #66bb9b;
+    border-top-width: thick;
+    box-shadow: 0 8px 8px -5px #d5d5d5,
+    -5px 0 5px -5px #d5d5d5, 
+    5px 0 5px -5px #d5d5d5;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
